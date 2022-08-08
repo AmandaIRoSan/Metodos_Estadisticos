@@ -5,4 +5,5 @@ Curso de Métodos estadísticos. Semestre Agosto Diciembre 2022
 
 Semana 1
 
-08/08/2022: Clase inicial: presentación del curso
++ :round_pushpin: 08/08/2022: Clase inicial - presentación del curso
++ :round_pushpin: 10/08/2022: Clase en sala de computación
