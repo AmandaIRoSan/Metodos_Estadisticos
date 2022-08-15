@@ -10,7 +10,7 @@ Semana 1
 
 Semana 2
 
-+ :round_pushpin: 15/08/2022:
++ :round_pushpin: 15/08/2022: Clase en sala de computación - Método científico.
 + :round_pushpin: 17/08/2022:
 
 Semana 3
