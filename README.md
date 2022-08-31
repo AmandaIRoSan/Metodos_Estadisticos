@@ -21,7 +21,7 @@ Semana 3
 Semana 4
 
 + :round_pushpin: 29/08/2022: Clase en sala de computación - captura y codificación de datos
-+ :round_pushpin: 31/08/2022: 
++ :round_pushpin: 31/08/2022: Clase en sala de computación - DATOS
 
 Semana 5
 
