@@ -1,5 +1,6 @@
 # AMANDA
 # SEMANA 4
+# SEMANA 5
 # 31/08/2022
 
 Entrevista <- read.csv("Datos/Encuesta_codificada.csv", header = T)
@@ -18,8 +19,44 @@ levels(Entrevista$Genero)
 library(lubridate)
 Entrevista$Fecha <- as.Date(Entrevista$Fecha)
 
-Entrevista$oi_2a <- as.factor(Entrevista$oi_2a)
-levels(Entrevista$oi_2a)
+# ¿Cuál fu el porcentaje de entrevistados por género?
+gen <- table(Entrevista$Genero)
+round(gen/length(Entrevista$Genero)*100,1)
+pie(round(gen/length(Entrevista$Genero)*100,1))
 
-Entrevista$oi_4a <- as.factor(Entrevista$oi_4a)
-levels(Entrevista$oi_4a)
+# ¿Qué equipo entrevistador tuvo más encuestas?
+ent <- table(Entrevista$Entrev)
+prop.table(ent)*100
+pie(prop.table(ent)*100)
+
+# ¿Cuál es el porcentaje de alumnos entrevistados por carrera?
+car <- table(Entrevista$Carrera)
+prop.table(car)*100
+pie(prop.table(car)*100)
+
+# ¿Cuántos alumnos participaron por semetre?
+sem <- table(Entrevista$Semestre)
+prop.table(sem)*100
+pie(prop.table(sem)*100)
+
+# ¿Cuál es el rango de edad de los participantes?
+range(Entrevista$Edad)
+
+# ¿Cómo te enteraste de la facultad?
+conFCF <- table(Entrevista$oi_1)
+conFCF
+prop.table(conFCF)*100
+pie(prop.table(conFCF)*100)
+
+# ¿Fue tu promera opción la FCF?
+op <- table(Entrevista$oi_2)
+op
+prop.table(op)*100
+pie(prop.table(op)*100)
+
+# ¿Presentantes en otra facultad?
+of <- table(Entrevista$oi_2a)
+of
+prop.table(of)*100
+pie(prop.table(of)*100)
+
