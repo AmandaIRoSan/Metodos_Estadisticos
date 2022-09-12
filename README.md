@@ -26,9 +26,9 @@ Semana 4
 Semana 5
 
 + :round_pushpin: 05/09/2022:
-+ :round_pushpin: 07/09/2022: Clase en sala de computación - 
++ :round_pushpin: 07/09/2022: Clase en sala de computación - resultados de encuesta
 
 Semana 6
 
-+ :round_pushpin: 12/09/2022:
++ :round_pushpin: 12/09/2022: Clase en sala de computación - resultados de encuesta
 + :round_pushpin: 14/09/2022:
