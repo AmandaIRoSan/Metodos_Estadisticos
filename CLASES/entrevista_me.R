@@ -48,7 +48,7 @@ pie(prop.table(conFCF)*100,
     col=c("red", "orange", "pink", "blue", "green"))
 # col=palette("buscar en internet") / paleta <- c("colores")
 
-# ¿Fue tu promera opción la FCF?
+# ¿Fue tu primera opción la FCF?
 op <- table(Entrevista$oi_2)
 op
 prop.table(op)*100
@@ -60,17 +60,9 @@ of
 prop.table(of)*100
 pie(prop.table(of)*100)
 
-# ¿Fue tu promera opción la FCF?
-op <- table(Entrevista$oi_2)
-op
-prop.table(op)*100
-pie(prop.table(op)*100)
-
-# ¿Presentaste en otra facultad?
-of <- table(Entrevista$oi_2a)
-of
-prop.table(of)*100
-pie(prop.table(of)*100)
+# ¿En cuál facultad presentaste?
+ofac <- table(Entrevista$oi_2b)
+ofac
 
 # ¿Estuviste inscrito en otra facultad?
 fac <- table(Entrevista$oi_4)
@@ -117,3 +109,30 @@ pie(prop.table(clase)*100)
 
 # GUARDAR LA BD CON LOS DATOS NUEVOS EN FORMATO.CSV
 write.csv(Entrevista, "Datos/Encuesta_codificada.csv")
+
+library(dplyr)
+
+fix(Entrevista)
+
+# GUARDAR LA BD CON LOS DATOS NUEVOS EN FORMATO.CSV
+write.csv(Entrevista, "Datos/Encuesta_codificada.csv")
+                       
+Seg.opcion <- Entrevista %>%
+  filter(oi_2 == "NO")
+Prim.opcion <- Entrevista %>%
+  filter(oi_2 == "SI")
+
+# REVOVER OBJETOS
+rm(SEg.opcion)
+rm(oi2_no)
+                       
+barplot(round(gen/length(Entrevista$Genero)*100,1),
+        ylim = c(0, 100),
+        xlab = "Género",
+        ylab = "Porcentaje",
+        col = "lightyellow")
+
+ofac <- table(Entrevista$oi_2b)
+ofac
+prop.table(ofac)*100
+                       
