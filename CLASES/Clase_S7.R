@@ -1,8 +1,8 @@
 # AMANDA
 
-library(dplyr)
-Entrevista <- read.csv("Datos/Encuesta_codificada.csv", header = T
-                      
+Entrevista <- read.csv("Datos/Encuesta_codificada.csv", header = T)
+
+library(dplyr)                                       
 
 fix(Entrevista)
 # GUARDAR LA BD CON LOS DATOS NUEVOS EN FORMATO.CSV
