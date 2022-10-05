@@ -45,11 +45,11 @@ Semana 8
 
 Semana 9
 
-+ :round_pushpin: 26/09/2022: **REPASO**
-+ :round_pushpin: 26/09/2022: **_EXÁMEN_**
++ :round_pushpin: 03/10/2022: **REPASO**
++ :date: 05/10/2022: Clase en sala de computación - ANOVA
 
-Semana 10
+:deciduous_tree: Semana 10
 
-+ :round_pushpin: 26/09/2022:
-+ :round_pushpin: 26/09/2022:
++ :round_pushpin: 10/10/2022:
++ :round_pushpin: 12/10/2022:
 
