@@ -5,7 +5,7 @@
 
 # EJERCICIO 1 -------------------------------------------------------------
 
-NS <- read.csv("CLASES/HW09.csv")
+NS <- read.csv("HW09.csv")
 NS$Tipo.de.suelo <- as.factor(NS$Tipo.de.suelo)
 
 boxplot(NS$nematodos ~ NS$Tipo.de.suelo,
