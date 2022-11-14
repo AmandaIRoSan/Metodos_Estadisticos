@@ -66,12 +66,12 @@ Semana 9
 :deciduous_tree: Semana 13
 
 + :round_pushpin: 31/10/2022: Clase en sala de computación - trabajo autónomo
-+ :round_pushpin: 02/11/2022: 
++ :round_pushpin: 02/11/2022: Clase en sala de computación - trabajo autónomo
 
 :deciduous_tree: Semana 14
 
-+ :round_pushpin: 07/11/2022:
-+ :round_pushpin: 09/11/2022:
++ :round_pushpin: 07/11/2022: Clase en sala de computación - trabajo autónomo
++ :round_pushpin: 09/11/2022: Clase en sala de computación - trabajo autónomo
 
 :deciduous_tree: Semana 15
 
